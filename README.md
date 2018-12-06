@@ -91,9 +91,11 @@ the answers for *some particular* level.
 
 - `getFerrets()` will get all the ferrets on the board. Uses 5 fuel
 
-- `getHealthPacks()` will get all the health packs on the board. Uses 30
+- `getHealthPacks()` will get all the health packs on the board. Uses 20
   fuel. However, tells you health packs that may have already been
   "used up" (so you need to remember if you want to use them).
+  
+- `getExit()` will get the exit. Uses 30 fuel.
 
 - `getFuel()` will return how much fuel you have left.
 
