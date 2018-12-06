@@ -84,7 +84,8 @@ the answers for *some particular* level.
 
 - `fireStone(x,y)`, which fires a stone with a set speed along the
   vector `(x * speed, y * speed)`. You don't have any control over
-  speed, but x and y must be in the range `[-1,1]`
+  speed, but x and y must be in the range `[-1,1]` Uses 6 fuel for
+  diagonal shots, 3 fuel for horizontal or vertical shots.
 
 - `getStones()` will get all the stones on the board fired by the
   ferrets. No fuel used. (Useful for avoiding them!)
